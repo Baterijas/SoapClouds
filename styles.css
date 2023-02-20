@@ -19,13 +19,26 @@ src: url(static/Epilogue-Medium.ttf);
 }
 
 #rc_logo {
-    left: 50px;
+    left: 120px;
     position: absolute;
-    color: #fff;
 }
 
 .logo {
     width: 130px;
+}
+
+.me {
+    width: 50px;
+    right: 130px;
+    position: absolute;
+    top: 15px
+}
+
+.tw {
+    width: 20px;
+    top: 30px;
+    right: 110px;
+    position: absolute;
 }
 
    
@@ -37,7 +50,6 @@ src: url(static/Epilogue-Medium.ttf);
 .rc_nav {
      overflow: hidden;
      background-color: black;
-     opacity: 0.5;
      text-align: center;
      z-index: 6;
 }
@@ -196,6 +208,11 @@ span {
     body {
       width:100%;
       overflow-x:hidden;
+    }
+
+    #rc_logo {
+        left: 10px;
+        position: absolute;
     }
 
     .topimg {
