@@ -140,7 +140,6 @@ h2 {
 .marquee {
     height: 400px;
     width: 1500px;
-    overflow: hidden;
     box-sizing: border-box;
     position: relative;
 }
