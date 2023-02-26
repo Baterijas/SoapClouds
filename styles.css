@@ -171,8 +171,8 @@ h2 {
   
   
 .marquee {
-    height: 400px;
-    width: 1500px;
+    height: 250px;
+    width: 3000px;
     box-sizing: border-box;
     position: relative;
 }
@@ -237,9 +237,9 @@ span {
 }
 
 @media screen and (max-width: 600px) {
-    body {
+    body, html {
       width:100%;
-      overflow-x:hidden;
+      overflow-x: hidden;
     }
 
     #rc_logo {
@@ -290,7 +290,6 @@ span {
     opacity: 0;
     transition: 1s all ease;
 }
-  
   
 .reveal.active{
     transform: translateY(0);
