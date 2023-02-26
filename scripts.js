@@ -7,11 +7,6 @@ function myFunction() {
     }
 }
 
-  function isMobile() {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    }
-    
-    if (!isMobile()) {
       function reveal() {
         var reveals = document.querySelectorAll(".reveal");
       
@@ -40,5 +35,3 @@ function myFunction() {
               setTimeout(function () { div.style.display = "none"; }, 600);
           }
       }
-    
-    }
