@@ -115,16 +115,6 @@ h2 {
     font-size: 30px;
 }
 
-h4 {
-    text-align: center;
-}
-
-@media screen and (min-width: 600px) {
-    h4 {
-        display: none;
-    }
-}
-
 .about {
     text-align: center;
     padding-left: 20%;
@@ -140,6 +130,7 @@ h4 {
 }
 
 .column {
+    width: 33%;
     text-align: center;
     overflow: hidden;
     float: left;
@@ -149,6 +140,7 @@ h4 {
   }
 
   .column1 {
+    padding-top: 10px;
     text-align: center;
     overflow: hidden;
     float: left;
@@ -170,6 +162,7 @@ h4 {
   }
 
 .column2 {
+    padding-top: 100px;
     text-align: center;
     overflow: hidden;
     float: left;
@@ -207,6 +200,7 @@ h4 {
   }
 
   .column5 {
+    padding-top: 60px;
     text-align: center;
     overflow: hidden;
     float: left;
@@ -231,7 +225,10 @@ h4 {
     }
 
     .column1 {
+        padding-top: 0;
         width: 100%;
+        overflow: visible;
+        padding: 0px;
         
     }
 
@@ -244,7 +241,10 @@ h4 {
     }
 
     .column2 {
+        padding-top: 0;
+        overflow: visible;
         width: 100%;
+        padding: 0px;
     }
 
     .column3 {
@@ -264,7 +264,10 @@ h4 {
     }
 
     .column5 {
+        padding-top: 0;
+        overflow: visible;
         width: 100%;
+        padding: 0px;
     }
 
     .row2 {
@@ -276,9 +279,22 @@ h4 {
     }
 
     h2 {
-        display: none;
+        font-size: 20px;
     }
 
+    .info p {
+        text-align: justify;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about {
+        text-align: justify;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
   }
 
 .orb {
@@ -374,14 +390,6 @@ span {
 
     .topimg {
         display: none;
-    }
-
-    .about p {
-        display: inline-block;
-        text-align: center;
-        padding-left: 35px;
-        padding-right: 35px;
-        font-size: 11px;
     }
 
     .button {
