@@ -109,23 +109,177 @@ src: url(static/Epilogue-Medium.ttf);
     }
    
 }
-
+  
 h2 {
     text-align: center;
     font-size: 30px;
 }
 
-h3 {
+h4 {
     text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+    h4 {
+        display: none;
+    }
+}
+
+.about {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.row {
+    text-align: center;
+}
+
+.column {
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .column1 {
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .cloud {
+    width: 60%;
+    position: relative;
+    left: 170px;
+  }
   
-.about p {
-    display: inline-block;
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column2 {
     text-align: center;
-    padding-left: 350px;
-    padding-right: 350px;
-    font-size: 13px;
-}
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 450px;
+  }
+
+  .column3 {
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 450px;
+  }
+
+  .psc {
+    width: 60%;
+  }
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column4 {
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 340px;
+  }
+
+  .column5 {
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 340px;
+  }
+
+  .nft {
+    width: 40%;
+  }
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+        display: none;
+    }
+
+    .column1 {
+        width: 100%;
+        
+    }
+
+    .row {
+        text-align: center;
+      }
+  
+    .cloud {
+        display: none;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+
+    .column3 {
+        display: none;
+    }
+
+    .row1 {
+        text-align: center;
+      }
+  
+    .psc {
+        display: none;
+    }
+
+    .column4 {
+        display: none;
+    }
+
+    .column5 {
+        width: 100%;
+    }
+
+    .row2 {
+        text-align: center;
+      }
+  
+    .nft {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+  }
 
 .orb {
     width: 200px;
