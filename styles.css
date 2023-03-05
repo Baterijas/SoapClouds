@@ -121,6 +121,11 @@ h2 {
     padding-right: 20%;
 }
 
+.soon {
+    text-align: center;
+    padding: 250px 0;
+}
+
 * {
     box-sizing: border-box;
   }
