@@ -153,6 +153,10 @@ h2 {
     position: relative;
     left: 170px;
   }
+
+  .imgp {
+    display: none;
+  }
   
   .row:after {
     content: "";
@@ -167,7 +171,7 @@ h2 {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 450px;
+    height: 280px;
   }
 
   .column3 {
@@ -176,11 +180,11 @@ h2 {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 450px;
+    height: 280px;
   }
 
   .psc {
-    width: 400px;
+    width: 300px;
   }
   
   .row1:after {
@@ -195,7 +199,7 @@ h2 {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 340px;
+    height: 280px;
   }
 
   .column5 {
@@ -205,11 +209,11 @@ h2 {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 340px;
+    height: 280px;
   }
 
   .nft {
-    width: 300px;
+    width: 250px;
   }
   
   .row1:after {
@@ -220,12 +224,17 @@ h2 {
   
   @media screen and (max-width: 600px) {
     .column {
-        display: none;
+        width: 100%;
+        padding-top: 0px;
+        height: 200px;
+        overflow: visible;
+        padding: 0px;
     }
 
     .column1 {
         padding-top: 0;
         width: 100%;
+        height: 150px;
         overflow: visible;
         padding: 0px;
         
@@ -239,10 +248,17 @@ h2 {
         display: none;
     }
 
+    .imgp {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+    }
+
     .column2 {
-        padding-top: 0;
+        padding-top: 0px;
         overflow: visible;
         width: 100%;
+        height: 340px;
         padding: 0px;
     }
 
@@ -263,9 +279,10 @@ h2 {
     }
 
     .column5 {
-        padding-top: 0;
+        padding-top: 0px;
         overflow: visible;
         width: 100%;
+        height: 240px;
         padding: 0px;
     }
 
