@@ -121,6 +121,12 @@ h2 {
     padding-right: 20%;
 }
 
+.us {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .soon {
     text-align: center;
     padding: 250px 0;
@@ -311,6 +317,13 @@ h2 {
     }
 
     .about {
+        text-align: justify;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .us {
         text-align: justify;
         font-size: 13px;
         padding-left: 50px;
